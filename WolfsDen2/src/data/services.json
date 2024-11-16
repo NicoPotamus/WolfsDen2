@@ -1,0 +1,59 @@
+{
+    "services": [
+      {
+        "name": "Mens Haircut",
+        "price_master": 35.00,
+        "price_apprentice": 25.00,
+        "description": "12 & Over Includes All Types of Hair and Styles"
+      },
+      {
+        "name": "V.I.P.",
+        "price_master": 80.00,
+        "price_apprentice": 70.00,
+        "description": "This 1-hour service starts with a Hot-Shave, then a black mask followed by a haircut. Once the black mask is removed, a facial cleanser is applied that helps clean out the pores and dirt off your face. To finish off a cold towel is put on to close the pores."
+      },
+      {
+        "name": "Children's Haircut",
+        "price_master": 35.00,
+        "price_apprentice": 25.00,
+        "description": "11 & Under"
+      },
+      {
+        "name": "Senior Haircut",
+        "price_master": 27.00,
+        "price_apprentice": 17.00,
+        "description": "65 years and older"
+      },
+      {
+        "name": "Hot-Shave",
+        "price_master": 35.00,
+        "price_apprentice": 25.00,
+        "description": "Shaving lotion is applied to the face or head to relax and smooth out the hair, then the 1st hot towel is put on. When removed warm shaving cream is applied followed by the 2nd hot towel, then gently massage into the face. Once the 2nd towel is removed, the 1st Straight-Razor blade is used to remove facial hair or head hair. Once all hair is removed, the shaving gel is applied followed by the 2nd fresh new bladed Straight-Razor. This ensures all hair is removed. Aftershave lotion is applied to the face or head before the cold towel finish."
+      },
+      {
+        "name": "Men's Haircut W/ Beard",
+        "price_master": 40.00,
+        "price_apprentice": 30.00,
+        "description": "This service is for all types of hair and haircuts. An electric shaver is used for the neck area. Straight-Razoring neck area is an extra $5 charge. Extra services can be added at any point before the haircut."
+      },
+      {
+        "name": "Luxury Straight-Razor Skin Fade",
+        "price_master": 45.00,
+        "price_apprentice": 35.00,
+        "description": "Shaving gel is applied on the head where the skin fade will start. Once all hair is removed and smoothed the fade with clippers will continue to make the fade. This is for those who like an old-school feel to haircuts! Highly recommended!!"
+      },
+      {
+        "name": "Luxury Straight-Razor Haircut W/ Beard",
+        "price_master": 70.00,
+        "price_apprentice": 60.00,
+        "description": "TBD"
+      },
+      {
+        "name": "After Hour Appointment",
+        "price_master": "50.00+",
+        "price_apprentice": "40.00+",
+        "description": "I am open to taking After-Hour appointments which come with after-hour pricing."
+      }
+    ]
+  }
+  
