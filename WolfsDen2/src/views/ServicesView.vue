@@ -20,7 +20,7 @@ const masterPrice = ref(true)
       </div>
     </div>
 
-    <div class="card" v-for="service in services" :key="service.name">
+    <div class="card" v-for="service in services" :key="service.name as string">
       <header class="card-header is-block">
         <nav class="level is-mobile">
           <!-- Left side -->
