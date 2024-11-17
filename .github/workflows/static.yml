@@ -37,7 +37,7 @@ jobs:
         with:
           node-version: 18  
       - name: build vue
-        uses: run|
+        run: |
           cd WolfsDen2
           npm run build
       - name: Upload artifact
