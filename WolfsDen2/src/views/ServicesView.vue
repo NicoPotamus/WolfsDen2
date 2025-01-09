@@ -15,8 +15,8 @@ const masterPrice = ref(true)
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-narrow" @click="masterPrice = !masterPrice">
-        <button class="button masterPrice is-fullwidth" v-if="masterPrice">Master Price</button>
-        <button class="button apprenticePrice is-fullwidth" v-else>Apprentice Price</button>
+        <button class="button masterPrice is-fullwidth" v-if="masterPrice">Level 3 Price</button>
+        <button class="button apprenticePrice is-fullwidth" v-else>Level 2 Price</button>
       </div>
     </div>
 

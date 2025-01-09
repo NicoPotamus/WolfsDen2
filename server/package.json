@@ -1,0 +1,11 @@
+{
+  "name": "wolfserver",
+  "version": "1.0.0",
+  "description": "for applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas DeMilio",
+  "license": "ISC"
+}
