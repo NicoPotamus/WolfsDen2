@@ -12,11 +12,34 @@ const masterPrice = ref(true)
 </script>
 
 <template>
+  <section class="hero has-background-dark">
+    <div class="hero-body">
+      <p class="title has-text-light">Services</p>
+    </div>
+  </section>
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-narrow" @click="masterPrice = !masterPrice">
-        <button class="button masterPrice is-fullwidth" v-if="masterPrice">Level 3 Price</button>
-        <button class="button apprenticePrice is-fullwidth" v-else>Level 2 Price</button>
+        <button class="button masterPrice is-fullwidth" v-if="masterPrice">
+          <div class="level is-mobile">
+            <div class="level-left"><div class="level-item">Level 3</div></div>
+            <div class="level-right">
+              <span class="icon">
+                <i class="fa-solid fa-angle-down"></i>
+              </span>
+            </div>
+          </div>
+        </button>
+        <button class="button apprenticePrice is-fullwidth" v-else>
+          <div class="level is-mobile">
+            <div class="level-left"><div class="level-item">Level 2</div></div>
+            <div class="level-right">
+              <span class="icon">
+                <i class="fa-solid fa-angle-down"></i>
+              </span>
+            </div>
+          </div>
+        </button>
       </div>
     </div>
 
@@ -34,8 +57,8 @@ const masterPrice = ref(true)
             </p>
             <p class="level-item card-header-title" v-else>${{ service.price_apprentice }}</p>
             <button
-              class="level- item card-header-icon"
-              aria-label="more options"
+              class="level-item card-header-icon"
+              aria-label="Description"
               @click="service.isOpen = !service.isOpen"
             >
               <span class="icon">
@@ -63,28 +86,48 @@ const masterPrice = ref(true)
 </template>
 
 <style scoped>
-.dropdown-enter-active,
-.dropdown-leave-active {
-  transition:
-    max-height 0.5s ease,
-    opacity 0.5s ease;
-}
-.dropdown-enter-from,
-.dropdown-leave-to {
-  max-height: 0;
-  opacity: 0;
-}
-.dropdown-enter-to,
-.dropdown-leave-from {
-  max-height: 500px; /* Adjust this value based on your content */
-  opacity: 1;
-}
 .masterPrice {
-  background-color: #f0d9a9c2;
+  background-color: #e5d3c3;
   color: black;
 }
 .apprenticePrice {
   background-color: #a31c52b0;
   color: white;
+}
+
+/* Keyframe animations */
+@keyframes dropdown-open {
+  from {
+    transform: rotateX(-90deg);
+    opacity: 0;
+  }
+  to {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes dropdown-close {
+  from {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+  to {
+    transform: rotateX(-90deg);
+    opacity: 0;
+  }
+}
+
+/* Apply animations to dropdown elements */
+.dropdown-enter-active {
+  animation: dropdown-open 0.5s ease-out forwards;
+}
+
+.dropdown-leave-active {
+  animation: dropdown-close 0.5s ease-in forwards;
+}
+
+.dropdown-content {
+  transform-origin: top;
 }
 </style>

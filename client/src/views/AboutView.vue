@@ -1,9 +1,12 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="about has-text-white">
-    <h1>This is an about page</h1>
+  <section class="hero is-cream">
+  <div class="hero-body">
+    <p class="title">About Us</p>
+    <p class="subtitle">Barbers</p>
   </div>
+</section>
 
   <div class="container has-text-light">
     <!--CODY-->
@@ -27,7 +30,7 @@
     </div>
     <br />
     <!--Nick-->
-    <div class="columns">
+    <div class="columns reverse-columns-mobile">
       <!--left side-->
       <div class="column is-half">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -64,7 +67,7 @@
 
     <br />
     <!--Gianni-->
-    <div class="columns">
+    <div class="columns reverse-columns-mobile">
       <!--left side-->
       <div class="column is-half">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -85,4 +88,14 @@
   </div>
 </template>
 
-<style></style>
+<style>
+.is-cream{
+  background-color: #e5d3c3;
+}
+@media(max-width: 767px) { /* <== You can change this break point as per your  needs */
+  .reverse-columns-mobile {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+}
+</style>

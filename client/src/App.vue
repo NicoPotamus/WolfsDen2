@@ -17,6 +17,6 @@ import NavBar from './components/NavBar.vue'
 <style scoped>
 .container {
   min-height: 100vh;
-  min-width: 100vw;
+  min-width: 98vw;
 }
 </style>

@@ -31,7 +31,8 @@
         <RouterLink to="/" class="navbar-item">Home</RouterLink>
         <RouterLink to="/about" class="navbar-item">About</RouterLink>
         <RouterLink to="/services" class="navbar-item">Services</RouterLink>
-    </div>
+        <a href="https://www.google.com/search?q=The+Wolf%27s+Den+Barbershop&sca_esv=fe9f719d59c6d571&source=hp&ei=gBmMZ5OjA9CGptQPjsX46As&iflsig=AL9hbdgAAAAAZ4wnkBgI50OgUnzOr8ccGt_CD0crmOlM&ved=0ahUKEwiT4-iAmICLAxVQg4kEHY4iHr0Q4dUDCBA&uact=5&oq=The+Wolf%27s+Den+Barbershop&gs_lp=Egdnd3Mtd2l6IhlUaGUgV29sZidzIERlbiBCYXJiZXJzaG9wMg4QLhiABBjHARiOBRivATIFEAAYgAQyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB5IoQlQ0QdY0QdwAXgAkAEAmAFnoAFnqgEDMC4xuAEDyAEA-AEC-AEBmAICoAJ6qAIKwgIKEAAYAxjqAhiPAcICChAuGAMY6gIYjwGYAwzxBUNFN4__oOoSkgcDMS4xoAeYDA&sclient=gws-wi#lrd=0x89dd473f81e9cded:0xefb09e9d1c69c091,3,,,," class="navbar-item">Review</a>
+      </div>
 
     <div class="navbar-end">
       <div class="navbar-item">

@@ -84,8 +84,8 @@ const center = { lat: 41.555035, lng: -73.784569 }
           <h2 class="has-text-light has-text-centered">Contact</h2>
           <br />
           <div class="has-text-light box has-background-dark">
-            <a href="tel:8455924141" class="has-text-light">
-              <p><b>Phone:</b> (845) 592-4141</p>
+            <a href="tel:8455921277" class="has-text-light">
+              <p><b>Phone:</b> (845)-592-1277</p>
             </a>
             <br />
             <a href="mailto:gilleocody456@gmail.com" class="has-text-light">
