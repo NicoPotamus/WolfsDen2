@@ -98,16 +98,17 @@ const center = { lat: 41.555035, lng: -73.784569 }
       <div class="columns">
         <!--left side-->
         <div class="column is-half">
-          <div class="is-block">
-            <GoogleMap
-              api-key="AIzaSyBSypqfOLa_El-MNjJqXo1Gt-W4oM6FTRA"
+            <iframe
               class="gmap"
-              :center="center"
-              :zoom="15"
+              style="border: 0"
+              loading="lazy"
+              allowfullscreen
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBSypqfOLa_El-MNjJqXo1Gt-W4oM6FTRA
+    &q=The+Wolfs+Den+Barbershop,Hopewell+Junction+NY"
             >
-              <Marker :options="{ position: center }"></Marker>
-            </GoogleMap>
-          </div>
+            </iframe>
+          
         </div>
         <!--right side-->
         <div class="column is-half content">
