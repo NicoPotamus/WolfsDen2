@@ -26,6 +26,16 @@ const router = createRouter({
       path:'/apply',
       name: 'apply',
       component: () => import('../views/ApplyView.vue')
+    },
+    {
+      path:'/admin',
+      name: 'admin',
+      component: () => import('../views/AdminLogin.vue')
+    },
+    {
+      path:'/admin/dashboard',
+      name: 'dashboard',
+      component: () => import('../views/ApplicantView.vue')
     }
   ]
 })

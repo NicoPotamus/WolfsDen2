@@ -1,14 +1,13 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="container">
+  <div class="container has-text-light">
     <div class="field">
       <label class="label">Name</label>
       <div class="control">
         <input class="input" type="text" placeholder="Text input" />
       </div>
     </div>
- 
 
     <div class="field">
       <label class="label">Email</label>
